@@ -1,0 +1,55 @@
+in playwright we have two methods
+
+fill-- if we need to wright something inside into the text box
+
+click -- i we need to click on button or link
+
+locator 
+
+id 
+xpath
+css
+
+
+Xpath :- 
+
+Purple color - Tag Name
+Red colo r- Attribute
+Blue color - Value
+Black Color - text
+
+1-  //tagname[@attribute="value"]
+
+//textarea[@title="Search"]
+
+//a[@aria-label="Gmail "]
+
+2- //tagname[text()="text value"]
+
+//a[text()="Gmail"]
+
+3- (//a[text()='Customer Service'])[1]
+
+4    //a[text()='Today's Deals']
+
+//tagname[contains(text(),'search value')]
+
+//a[contains(text(),'Deals')]
+
+//a[contains(text(),'Deals')]
+
+
+beforeall
+
+test
+
+test
+test
+
+
+
+when we are useing beofreall we have to use browser variable then that veriable call the next page
+
+
+page was opening the browser
+
